@@ -1,2 +1,2 @@
 # hcp_qc_tools
-The python based scripts in this repositories are tools used by the Level2 QC Pipeline of HCP (aka Functional QC). 
+The python based scripts in this repository are tools used by the Level2 QC Pipeline of HCP-IntraDB (aka Functional QC). 
