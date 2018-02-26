@@ -139,7 +139,7 @@ yGrid = (ndMesh[1,:] - CenterPoint[1])**2
 
 
 #set up bool for keeping middle slices...
-nElimSlices = round(numpyNipyDataSz[2] * fracElimSlices)
+nElimSlices = int(round(numpyNipyDataSz[2] * fracElimSlices))
 boolElimSlices = numpy.zeros(numpyNipyDataSz[2], dtype=numpy.int)
 if (fracElimSlicesUse == 'y'):
     boolElimSlices[nElimSlices:(numpyNipyDataSz[2] - nElimSlices)] = 1
